@@ -12,6 +12,8 @@ import NotFound from './NotFound';
 
 import store from './Redux/store';
 
+import './css/common.css';
+
 render(
     <Provider store={store}>
         <BrowserRouter>
